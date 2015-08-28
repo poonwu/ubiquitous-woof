@@ -1,8 +1,6 @@
 # ubiquitous-woof
 
-## Day 1
-
-Tested OpenCV, ran into [https://github.com/Itseez/opencv/issues/4603]() bug with constants.
-Issue diverted by using `detectMultiScale` for `CascadeClassifier`.
-
-Defect detection on Bill Gates' face. Experimenting looks okay with some noise. Expect more noise when testing with real images from camera iface. How do we eliminate that? Maybe by putting higher thres.?
+![original](https://raw.githubusercontent.com/ssabpisa/ubiquitous-woof/master/starbucks_small.jpg)
+![diff 1](https://raw.githubusercontent.com/ssabpisa/ubiquitous-woof/master/docs/diff1.PNG)
+![diff 2](https://raw.githubusercontent.com/ssabpisa/ubiquitous-woof/master/docs/diff2.PNG)
+![diff 3](https://raw.githubusercontent.com/ssabpisa/ubiquitous-woof/master/docs/df3.PNG)
